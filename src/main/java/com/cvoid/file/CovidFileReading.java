@@ -23,7 +23,7 @@ public class CovidFileReading {
 
     private final CovidService covidService;
 
-    @Scheduled(fixedDelay = 36000000, initialDelay = 6000)
+    @Scheduled(fixedDelay = 36000000, initialDelay = 600000000)
     public void filesProcessing() {
         String PATH = "./COVID-19/csse_covid_19_data/csse_covid_19_daily_reports";
         File myDirectory = new File(PATH);
