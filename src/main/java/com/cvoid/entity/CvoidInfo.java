@@ -29,18 +29,17 @@ public class CvoidInfo {
     private String countryRegion;
 
     @LastModifiedDate
-    @Column(name = "Last_Update", updatable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date lastUpdate;
 
-    private double lat;
-    private double lng;
+    private Double lat;
+    private Double lng;
 
-    private long confirmed;
-    private long deaths;
-    private long recovered;
-    private long Active;
+    private Long confirmed;
+    private Long deaths;
+    private Long recovered;
+    private Long active;
     private String  combinedKey;
-    private double incidentRate;
-    private double caseFatalityRatio;
+    private Double incidentRate;
+    private Double caseFatalityRatio;
 }

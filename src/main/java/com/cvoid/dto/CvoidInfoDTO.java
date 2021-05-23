@@ -51,7 +51,7 @@ public class CvoidInfoDTO {
     @JsonProperty("Recovered")
     private String recovered;
     @JsonProperty("Active")
-    private String Active;
+    private String active;
     @JsonProperty("Combined_Key")
     private String  combinedKey;
     @JsonProperty("Incident_Rate")
